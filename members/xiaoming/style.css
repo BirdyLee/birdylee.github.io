@@ -1,0 +1,39 @@
+* {
+	font-family: "微软雅黑";
+}
+
+#title{
+	margin: 120px auto 40px;
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+.content{
+	text-align: center;
+	margin: 20px auto 40px;
+}
+
+a {
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+	border: 1px solid #ddd;
+	background-color: transparent;
+	height: 40px;
+	line-height: 40px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+a:link{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+	border: 1px solid #888;
+}
+a:active{
+	text-decoration:none;
+	color: #222;
+}
