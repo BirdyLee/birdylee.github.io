@@ -6,7 +6,7 @@
 	margin: 120px auto 40px;
 	text-align: center;
 	font-size: 30px;
-	
+
 }
 
 .content{
@@ -14,26 +14,35 @@
 	margin: 20px auto 40px;
 }
 
-a {
+a{
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.item {
 	display: block;
 	text-align: center;
 	margin: 10px auto;
 	border: 1px solid #ddd;
 	background-color: transparent;
-	height: 40px;
-	line-height: 40px;
+	padding: 10px;
 	width: 200px;
 	border-radius: 10px;
 	color: #222;
 }
 
-a:link{
+.item:link{
 	text-decoration:none;
 }
-a:hover{
+.item:hover{
 	text-decoration:none;
 	border: 1px solid #888;
 }
-a:active{
+.item:active{
 	text-decoration:none;
+}
+
+#icon{
+	height: 30px;
 }
