@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+@font-face{
+	font-family: 'KaushanScript';
+	src:url('KaushanScript-Regular.otf');
+}
+
+body{
+	background-color: #fdfdfd;
+}
+
+.ret {
+	display: block;
+	text-align: center;
+	margin: 80px auto 10px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	height: 40px;
+	line-height: 40px;
+	width: 200px;
+	border-radius: 10px;
+	color: #222;
+}
+
+.ret:link{
+	text-decoration:none;
+}
+.ret:hover{
+	text-decoration:none;
+	border: 1px solid #888;
+}
+.ret:active{
+	text-decoration:none;
+}
+
+aside{
+	position: fixed;
+	text-align: center;
+	width: 15%;
+	height: 100%;
+	border: 1px solid #ccc;
+	margin-top: -1px;
+}
+
+aside img{
+	width: 150px;
+	margin-top: 100px;
+}
+
+#title h3{
+	color: #636363;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+#title p{
+	font-size: 16px;
+	color: #ccc;
+	padding-top: 10px;
+}
+
+#main{
+	margin-left: 207px;
+	text-align: center;
+}
+
+#main p{
+	font-family: 'KaushanScript';
+	font-size: 40px;
+}
+
+#motto{
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+ul{
+	list-style: none;
+	margin-top: 60px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+li{
+	float: left;
+	width: 200px;
+	border: 1px solid rgb(128,128,128);
+	background-color: #fff;
+	height: 200px;
+	background-color: #fff;
+}
+
+table{
+width: 100%;
+}
+table th{
+	background-color: #ccc;
+	color: white;
+	font-size: 24px;
+}
+
+table td{
+	background-color: #fff;
+	padding: 10px;
+}
+
