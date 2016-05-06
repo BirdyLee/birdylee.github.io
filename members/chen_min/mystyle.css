@@ -1,0 +1,37 @@
+body{
+		background: url(my.png) no-repeat;
+		background-width: 100%;		
+}
+
+#title{
+		font-family: PMingLiU;
+		font-size:80px;
+		color: white;
+		margin-top: 4%;
+		text-align: center;
+	
+}
+.content{
+	width: 35%;
+	height: 300px;
+	background: rgba(0,0,0,0.1);
+	margin: 50px auto;
+	font-size:30px;
+	color:white;
+	padding:20px; 
+}
+.btn{
+	width: 120px;
+	height: 60px;
+	margin-left: 80%;
+	background-color: #2083a9;
+	font-size: 24px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 10px;
+	margin: -20px auto;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
