@@ -143,7 +143,7 @@ git 本地仓库就是存放在你的电脑里的git仓库。
 （虽然https连接方式被号称比较快，但本人还是推荐使用[ssh连接方式]((http://cuiqingcai.com/423.html))，这样可以不用在电脑保存你的 github 账密。）
 
 ![把新的 commit 推送到 远程仓库](http://upload-images.jianshu.io/upload_images/1234637-e98fdfb4a118c5cf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+dssd
 
 这个操作可以定期完成，如每晚一次，这样可以大大减少由于你的电脑故障带来的代码损失。
 
